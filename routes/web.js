@@ -1,7 +1,7 @@
 const express = require('express')
 const FrontController = require('../controllers/FrontController')
 const TeacherController = require('../controllers/TeacherController')
-const { dashboard } = require('../controllers/Admin/admincontroller')
+// const { dashboard } = require('../controllers/Admin/admincontroller')
 // const admincontroller = require('../controllers/Admin/admincontroller')
 const AdminController = require('../controllers/Admin/admincontroller')
 const StudentController = require('../controllers/Admin/StudentController')
