@@ -2,7 +2,7 @@ const express = require('express')
 // console.log(express)
 const app = express()
 const port = 3000
-const web = require('./routes/web')
+const web = require('./route/web')
 const connectdb=require('./db/connectdb')
 // cookies
 const cookieparser = require('cookie-parser')
