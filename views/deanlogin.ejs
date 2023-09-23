@@ -1,0 +1,39 @@
+<%- include('./header.ejs')   %>
+<div class=" container-fluid  login">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6 log-us shadow-lg lpborder ">
+                <h4 class="ml-11 text-center Your"> Dean Login Your Account </h4>
+                <form class="ng-untouched ng-pristine ng-invalid  chh" action="/verifylogin" method="post">
+                    <div class="form-group">
+                        <label> Email: </label>
+
+                        <input type="text" name="email" placeholder="email or Roll No."
+                            class="form-control ng-untouched ng-pristine ng-invalid">
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <label>Password:</label>
+                        <input type="password" name="C_password" placeholder="Password"
+                            class="form-control ng-untouched ng-pristine ng-invalid">
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div>
+                        <button class="rgbutton shadow-lg form-group" type="submit" value="Login" onclick="">Log
+                            In</button>
+                        &nbsp; &nbsp; &nbsp;<span>forget account &amp; password?</span><a href="/forget"> click</a>
+                        <p style=" color:white;">Only Student Can Login Here...</p>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<%- include('./footer.ejs')   %>

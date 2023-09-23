@@ -1,0 +1,48 @@
+<%- include('../layouts/header.ejs') %>
+  <%- include('../layouts/sidebar.ejs') %>
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+
+
+      <!-- Main content -->
+      <div class="content">
+        <br>
+        <br>
+        <!-- /.card -->
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">View Course</h3>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <table id="example1" class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Course</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td><%= o._id %></td>
+                    <td><%= o.course %></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Id</th>
+                  <th>Course</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+        <!-- Modal start -->
+
+      </div>
+      <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    <%- include('../layouts/footer.ejs') %>
